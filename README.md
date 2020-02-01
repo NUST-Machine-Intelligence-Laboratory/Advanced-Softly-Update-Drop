@@ -1,8 +1,8 @@
-# Web-Supervised Network with Softly Update-Drop Training for Fine-Grained Visual Classification
+# Softly Update-Drop Network with Noisy Web Images for Fine-Grained Recognition
 
 Introduction
 ------------
-This is the source code for our paper **Web-Supervised Network with Softly Update-Drop Training for Fine-Grained Visual Classification**
+This is the source code for our paper **Softly Update-Drop Network with Noisy Web Images for Fine-Grained Recognition**
 
 Network Architecture
 --------------------
