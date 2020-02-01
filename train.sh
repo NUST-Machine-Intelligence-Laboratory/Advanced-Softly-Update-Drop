@@ -12,4 +12,4 @@ export lr=0.01
 export w_decay=1e-5
 export label_weight=0.5
 
-python train.py --net ${NET} --n_classes ${N_CLASSES} --path ${path} --data_base ${data_base} --lr ${lr} --w_decay ${w_decay} --denoise --warm 5 --cos
+python train.py --net ${NET} --n_classes ${N_CLASSES} --path ${path} --data_base ${data_base} --lr ${lr} --w_decay ${w_decay} --label_weight ${label_weight} --denoise --smooth --warm 5 --cos
