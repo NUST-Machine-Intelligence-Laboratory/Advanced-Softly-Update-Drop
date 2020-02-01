@@ -1,8 +1,8 @@
-# Softly Update-Drop Network with Noisy Web Images for Fine-Grained Recognition
+# Robust Learning from Noisy Web Images for Fine-Grained Recognition
 
 Introduction
 ------------
-This is the source code for our paper **Softly Update-Drop Network with Noisy Web Images for Fine-Grained Recognition**
+This is the source code for our paper **Robust Learning from Noisy Web Images for Fine-Grained Recognition**
 
 Network Architecture
 --------------------
