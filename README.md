@@ -39,6 +39,6 @@ The code is currently tested only on GPU
 
       - Modify `CUDA_VISIBLE_DEVICES` to proper cuda device id and `data_base` to proper dataset in  ``` run.sh ```
       
-      - Activate virtual environment(e.g. conda) and then run the script```bash train.sh``` to train a resnet model or ```bash train_bcnn.sh``` to train a vgg model.
+      - Activate virtual environment(e.g. conda) and then run the script```bash train.sh``` to train a resnet model or ```bash train_bcnn.sh``` to train a vgg model. We recommand you to use resnet-18 backbone, because it needs less memory and time to train.
       
     ![table](performance.png)
