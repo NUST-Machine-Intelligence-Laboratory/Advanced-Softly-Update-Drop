@@ -17,7 +17,7 @@ export w_decay=1e-8
 export batchsize=64
 export step=1
 
-python train_myframework.py --net ${NET} --n_classes ${N_CLASSES} --path ${path} --data_base ${data_base} --lr ${lr} --w_decay ${w_decay} --batch_size ${batchsize} --epochs ${epochs} --label_weight ${label_weight} --drop_rate ${drop_rate} --tk ${tk} --step ${step} --denoise --smooth --warm 5 --cos
+python train.py --net ${NET} --n_classes ${N_CLASSES} --path ${path} --data_base ${data_base} --lr ${lr} --w_decay ${w_decay} --batch_size ${batchsize} --epochs ${epochs} --label_weight ${label_weight} --drop_rate ${drop_rate} --tk ${tk} --step ${step} --denoise --smooth --warm 5 --cos
 
 sleep 100
 
@@ -27,4 +27,4 @@ export w_decay=1e-5
 export batchsize=32
 export step=2
 
-python train_myframework.py --net ${NET} --n_classes ${N_CLASSES} --path ${path} --data_base ${data_base} --lr ${lr} --w_decay ${w_decay} --batch_size ${batchsize} --epochs ${epochs} --label_weight ${label_weight} --drop_rate ${drop_rate} --tk ${tk} --step ${step} --denoise --smooth --warm 5 --cos
+python train.py --net ${NET} --n_classes ${N_CLASSES} --path ${path} --data_base ${data_base} --lr ${lr} --w_decay ${w_decay} --batch_size ${batchsize} --epochs ${epochs} --label_weight ${label_weight} --drop_rate ${drop_rate} --tk ${tk} --step ${step} --denoise --smooth --warm 5 --cos
