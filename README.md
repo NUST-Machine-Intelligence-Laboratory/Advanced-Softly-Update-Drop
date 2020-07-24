@@ -1,4 +1,4 @@
-# Robust Learning from Noisy Web Images for Fine-Grained Recognition
+# Exploiting Web Images for Fine-Grained Visual Recognition by Eliminating Open-set Noise
 
 Introduction
 ------------
