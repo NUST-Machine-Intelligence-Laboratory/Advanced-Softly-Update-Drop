@@ -2,7 +2,7 @@
 
 Introduction
 ------------
-This is the source code for our paper **Robust Learning from Noisy Web Images for Fine-Grained Recognition**
+This is the source code for our paper **Exploiting Web Images for Fine-Grained Visual Recognition by Eliminating Open-set Noise**
 
 Network Architecture
 --------------------
